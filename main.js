@@ -40,7 +40,5 @@ else if (user_age > 65) {
 }
 else {
     console.log('non è possibile applicare nessuno sconto')
-    console.log('Il costo del biglietto e di euro: ', String(ticket_price));
+    console.log('Il costo del biglietto e di euro: ', String(ticket_price), String('€'));
 }
-//step 4
-//mostra il prezzo finale
