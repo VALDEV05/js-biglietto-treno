@@ -8,8 +8,19 @@ Questo richiederà un minimo di ricerca. */
 // chiedo il numero dei chilometri che l'utente dovrà percorrere
 const num_km = Number(prompt('Quanti chilometri dovrai percorrere?')).toFixed(0);
 console.log("l'utente dovrà percorrere", String(num_km), "km");
+
+
 const user_age = Number(prompt('Quanti anni hai?'));
 console.log("l'utente ha", String(user_age), 'anni');
+//verifica che il numero di kilometri da percorrere e l'età sia valido
+
+if ((num_km == 0) && (user_age == 0)) {
+
+}
+else {
+    alert('qualcosa non va');
+}
+
 
 //step 2
 //calcolo prezzo biglietto
